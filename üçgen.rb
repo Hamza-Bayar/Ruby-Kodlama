@@ -3,7 +3,7 @@
 def edges
   print 'please enter the value of the first side of the triangle: '
   f = gets.chomp.to_i
-  while f >= 0 
+  while f < 0 
     print 'please enter a valid number: '
     f = gets.chomp.to_i
   end

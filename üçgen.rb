@@ -21,9 +21,9 @@ def edges
   end
   
   if (f + s) > t && (f + t) > s && (t + s) > f 
-    puts 'Geçerli üçgen'
+    puts 'Valid triangle'
   else
-    puts 'Geçersiz üçgen'
+    puts 'Invalid triangle'
   end
 end
 

@@ -1,9 +1,11 @@
+# frozen_string_literal: true
+
 def EBOB(a:24, b:16)
 
  a = a.round
  b = b.round
   
-  puts "a = (#{a}), b = (#{b})"
+  puts "a = (#{a}) b = (#{b})"
 loop do
 
   if a <= 0 || b <= 0

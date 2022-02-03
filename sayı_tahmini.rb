@@ -1,6 +1,5 @@
 # frozen_string_literal: true
 
-#Hocanin sayi tahmin aleti :)
 
 def main2
   upper = 100

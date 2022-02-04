@@ -1,3 +1,5 @@
+# frozen_string_literal: true 
+
 def EKOK(a:24, b:16)
 
   a_1 = a.round
